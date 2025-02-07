@@ -114,13 +114,11 @@ h1, h2, h3, h4, h5, h6 {
 /* Background Blur Effects */
 .background-effects {
   position: absolute;
-
   inset: 0;
 }
 
 .blur-circle {
   position: absolute;
-
   width: 18rem;
   height: 18rem;
   border-radius: 50%;
@@ -1129,10 +1127,12 @@ p {
   text-align: center;
   width: 250px;
   transition: transform 0.3s ease;
+  border: 2px solid transparent;
 }
 
 .team-member:hover {
   transform: scale(1.05);
+  border-color: #184eef;
 }
 
 /* Team Image */
