@@ -401,13 +401,13 @@ p {
   .services-grid {
     grid-template-columns: 1fr 1fr;
   }
-}
+ }
 
 @media (min-width: 1024px) {
   .services-grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
-}
+} 
 
 /* Service Card */
 .service-card {
@@ -757,12 +757,12 @@ p {
   transform: translateY(-50%);
   z-index: 0;
 }
-
+/* 
 @media (min-width: 1024px) {
   .connection-line {
     display: block;
   }
-}
+} */
 
 /* Call to action button */
 .cta-button {
