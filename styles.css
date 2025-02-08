@@ -201,7 +201,7 @@ h1 {
 
 @media (min-width: 768px) {
   h1 {
-   
+   font-size: 3rem;
   }
 }
 
@@ -745,24 +745,7 @@ p {
   color: #666;
 }
 
-/* Connection line */
-.connection-line {
-  display: none;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  height: 1px;
-  background: linear-gradient(to right, #ff7454, #fe0d85);
-  transform: translateY(-50%);
-  z-index: 0;
-}
-/* 
-@media (min-width: 1024px) {
-  .connection-line {
-    display: block;
-  }
-} */
+
 
 /* Call to action button */
 .cta-button {
