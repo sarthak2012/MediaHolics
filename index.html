@@ -148,15 +148,17 @@
             </div>
           </div>
         </div>
+
         <!-- right section -->
         <div class="image-section">
           <div class="image-container">
-            <img class="ic" src="mediahilics.png" alt="" />
-            <svg class="icon" fill="currentColor" viewBox="0 0 24 24">
-              <path
-                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15v-3H8l4-7v3h3l-4 7z"
-              ></path>
-            </svg>
+            <div class="circle">
+              <!-- Wrapper for ripple effect -->
+              <img class="ic" src="mediahilics.png" alt="" />
+              <div id="cir1" class="cir"></div>
+              <div id="cir2" class="cir"></div>
+              <div id="cir3" class="cir"></div>
+            </div>
           </div>
           <div class="blur-circle top-right"></div>
         </div>
@@ -389,9 +391,6 @@
         </div>
 
         <div class="relative">
-          <!-- Connection Line -->
-          <div class="connection-line"></div>
-
           <div class="process-grid">
             <!-- Step 1 -->
             <div class="process-step fade-in-up">
